@@ -10,7 +10,7 @@ This project calculates a word's value by multiplying the prime numbers associat
 ### Slightly more detail
 First I wrote a program to count how many of each letter exists in my macbook's dictionary. I then assigned '2' to the letter that occured most frequently in the dictionary, and '101' to the letter that occured least frequently. Assigning primes by frequency allowed for word values to theoretically remain small.
 
-The words and their values were loaded into a SQL database via another Java program. When the server is first queried it loads the words into a hashmap (I need to find a way to load them without user interaction, or only store the words in one place). When a user enters a new word it is placed into the hashmap and database.
+The words and their values were loaded into a SQL database via another Java program. When the server is first queried it loads the words into a hashmap. When a user enters a new word it is placed into the hashmap and database.
 
 ## Folders
 AnagramDbBuilder holds the files used to create the dictionary database. The folders Anagram, and AnagramJPA hold the web app 
